@@ -1,6 +1,9 @@
 class FizzBuzz {
 
     fun fizzBuzz(arg: Int): String {
-        return arg.toString();
+        if (arg == 3) {
+            return "Fizz"
+        }
+        return arg.toString()
     }
 }
