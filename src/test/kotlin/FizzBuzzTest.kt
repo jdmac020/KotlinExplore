@@ -23,4 +23,10 @@ internal class FizzBuzzTest {
         val testArg = 5
         assertEquals("Buzz", subject.fizzBuzz(testArg))
     }
+
+    @Test
+    fun fizzBuzz_returns_fizzbuzz() {
+        val testArg = 15
+        assertEquals("FizzBuzz", subject.fizzBuzz(testArg))
+    }
 }
